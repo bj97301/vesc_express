@@ -1,7 +1,8 @@
 .project
 .settings
 .cproject
-build
+build/*
+!build/*.bin
 esp_idf_components
 sdkconfig.old
 .vscode
